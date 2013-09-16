@@ -12,7 +12,7 @@ import javax.swing.*;
 
 public class Demineur extends JFrame {
 
-	//--------------------------------------------------- les differents JPanel donc j'aurai besoin==============================================
+	//--les differents JPanel donc j'aurai besoin==============================================
 
 	private JPanel containner=new JPanel();  //---------------------c'est lui qui reçoit tout
 	private JPanel gameGrid= new JPanel(); //------------------------c'est lui qui recois les bouton du jeux

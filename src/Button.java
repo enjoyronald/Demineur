@@ -14,9 +14,9 @@ import java.io.IOException;
 
 public class Button extends JButton implements MouseListener, MouseMotionListener {
 	private String nom;
-	private int x;			//----------------------------coordonne sur les axes x et y de gamegrid  elles donne lors de l ajout a la grille 
+	private int x;			
 	private int y;
-	private int val=0;           //----------------------------si val<0, button est une bombe , si val=0, pas de menace autour, si val =idif 0, il y a i bombes autour
+	private int val=0;           
 	private  boolean mark=false; // ----------------------------si isMarKed== 0, button non marké et 1 marké 
 	private boolean open=false;  //                             s'il est ouvert 
 	private Image img;
